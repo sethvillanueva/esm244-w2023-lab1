@@ -36,6 +36,7 @@ ggplot(data = top_5_status, aes(x = fct_reorder(legal_status, tree_count),
   labs(y = 'Tree count', x = 'Legal Status') + 
   coord_flip() +
   theme_minimal()
+
 ```
 
 
